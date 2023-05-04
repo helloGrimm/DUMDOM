@@ -55,10 +55,6 @@ body {
     margin-bottom: 2%;
 }
 
-#container main section {
-    margin-bottom: 5%;
-}
-
 #container section table {
     width: 100%;
 }
@@ -95,13 +91,13 @@ body {
     color: var(--icon-secondary);
 }
 
-#container h1 {
+.titles {
     color: var(--title-secondary);
     font-weight: bold;
     font-size: 18px;
 }
 
-#container h1 span {
+.titles span {
     color: var(--text-secondary);
     font-weight: normal;
     font-size: 16px;

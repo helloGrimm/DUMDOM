@@ -1,15 +1,15 @@
 // Skrypt odpowiedzialny za zmianę tła na stronie głównej 
 var backgroundsImg = new Array (
-    "../images/art_examples/cropped/cropped_1.jpeg",
-    "../images/art_examples/cropped/cropped_2.jpeg",
-    "../images/art_examples/cropped/cropped_3.jpg",
-    "../images/art_examples/cropped/cropped_4.jpg",
-    "../images/art_examples/cropped/cropped_5.jpg",
-    "../images/art_examples/cropped/cropped_6.jpg",
-    "../images/art_examples/cropped/cropped_7.jpeg",
-    "../images/art_examples/cropped/cropped_8.jpeg",
-    "../images/art_examples/cropped/cropped_9.jpeg",
-    "../images/art_examples/cropped/cropped_10.jpeg"
+    "../images/art_examples/thumbnail/thumbnail_1.jpeg",
+    "../images/art_examples/thumbnail/thumbnail_2.jpeg",
+    "../images/art_examples/thumbnail/thumbnail_3.jpg",
+    "../images/art_examples/thumbnail/thumbnail_4.jpg",
+    "../images/art_examples/thumbnail/thumbnail_5.jpg",
+    "../images/art_examples/thumbnail/thumbnail_6.jpg",
+    "../images/art_examples/thumbnail/thumbnail_7.jpeg",
+    "../images/art_examples/thumbnail/thumbnail_8.jpeg",
+    "../images/art_examples/thumbnail/thumbnail_9.jpeg",
+    "../images/art_examples/thumbnail/thumbnail_10.jpeg"
 );
 
 // Odstęp po między następnym tłem (wartość w milisekundeach) 
