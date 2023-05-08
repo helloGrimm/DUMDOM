@@ -70,7 +70,7 @@ body {
     margin-bottom: 1rem;
 
     border-radius: 20px;
-    background-image: url(../images/tiles/NGE_tile_1.jpg);
+    background-image: url(../images/tiles_main_page/NGE_tile_1.jpg);
 }
 
 #anime {
@@ -82,7 +82,7 @@ body {
     margin-bottom: 1rem;
 
     border-radius: 20px;
-    background-image: url(../images/tiles/NGE_tile_2.jpg);
+    background-image: url(../images/tiles_main_page/NGE_tile_2.jpg);
     filter: opacity(0.9);
 }
 
@@ -95,7 +95,7 @@ body {
     margin-bottom: 1rem;
 
     border-radius: 20px;
-    background-image: url(../images/tiles/NGE_tile_3.jpg);
+    background-image: url(../images/tiles_main_page/NGE_tile_3.jpg);
     filter: opacity(0.9);
 }
 
@@ -107,6 +107,6 @@ body {
     margin-left: 5rem;
 
     border-radius: 20px;
-    background-image: url(../images/tiles/NGE_tile_4.jpg);
+    background-image: url(../images/tiles_main_page/NGE_tile_4.jpg);
     filter: opacity(0.9);
 }
