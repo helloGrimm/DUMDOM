@@ -1,0 +1,10 @@
+body {
+    background-color: var(--bg-primary);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
