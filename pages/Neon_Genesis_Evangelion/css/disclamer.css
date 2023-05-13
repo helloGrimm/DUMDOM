@@ -6,6 +6,9 @@
 
 
 #disclamer {
+    width: 50vw;
+
+    margin-top: 1rem;
     padding: 15px;
 
     background-color: var(--disclamer-primary);

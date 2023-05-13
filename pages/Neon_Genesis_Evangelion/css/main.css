@@ -10,14 +10,11 @@ body {
 
 #container {
     width: calc(100% - 5rem);
-    height: 100vh;
 
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    margin-left: 5rem;
-    margin-right: 0;
 }
 
 #container main {

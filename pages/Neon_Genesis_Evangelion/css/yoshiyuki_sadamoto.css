@@ -8,28 +8,29 @@ body {
 
 #container {
     width: calc(100% - 5rem);
-    height: 100vh;
 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
- 
+
     margin-left: 5rem;
     margin-right: 0;
 }
 
+
 #container main {
     width: 45%;
-    
+
     margin-top: 2%;
     margin-left: 10%;
 
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
 }
+
 
 #container article  {
     color: var(--text-secondary);
@@ -38,7 +39,7 @@ body {
 #container aside {
     width: 30%;
 
-    margin-top: 3%;
+    margin-top: 2%;
     margin-right: 10%;
 
     display: flex;
