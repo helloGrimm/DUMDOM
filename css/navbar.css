@@ -38,12 +38,6 @@ body::-webkit-scrollbar-thumb {
     background: var(--icon-primary);
 }
 
-/* Kontent strony */
-main {
-    margin-left: 5rem;
-    padding: 1rem;
-}
-
 /* Pasek navigacyjny */
 .navbar {
     width: 5rem;
@@ -138,22 +132,4 @@ main {
 
 .navbar:hover .logo svg {
     transform: rotate(-180deg);
-}
-
-/* CSS dla tła */
-.background {
-    overflow: hidden;
-    filter: grayscale(10%) opacity(0.8);
-}
-
-.background figure {
-    margin: 0;
-    left: 0;
-}
-
-.background figure img {
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
 }
