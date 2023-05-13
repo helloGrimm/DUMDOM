@@ -1,6 +1,6 @@
 body {
     color: var(--text-primary);
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-primary);
 }
 
 #container {
@@ -165,13 +165,21 @@ h4 {
 
 #logo {
     color: var(--text-secondary);
+    background-color: var(--bg-secondary);
+
+    width: 33%;
+    height: 250px;
+    border-radius: 20px;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #logo ul {
     list-style: none;
+    text-align: center;
 }
 
 #logo h2 {
@@ -193,6 +201,13 @@ h4 {
 }
 
 #overview {
+    background-color: var(--bg-secondary);
+    
+    width: 33%;
+    height: 250px;
+    
+    border-radius: 20px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,6 +215,19 @@ h4 {
 }
 
 #footer {
+    background-color: var(--bg-secondary);
+    border-radius: 20px;
+
+    width: 33%;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social_media {
     display: flex;
     justify-content: center;
     align-items: center;
