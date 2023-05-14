@@ -138,8 +138,8 @@ input[type=text] {
 aside {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: start;
 }
 
 aside a {
@@ -169,7 +169,6 @@ h4 {
 
     width: 33%;
     height: 250px;
-    border-radius: 20px;
 
     display: flex;
     flex-direction: column;
@@ -206,7 +205,6 @@ h4 {
     width: 33%;
     height: 250px;
     
-    border-radius: 20px;
 
     display: flex;
     flex-direction: column;
@@ -216,7 +214,6 @@ h4 {
 
 #footer {
     background-color: var(--bg-secondary);
-    border-radius: 20px;
 
     width: 33%;
     height: 250px;
