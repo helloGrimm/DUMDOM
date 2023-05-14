@@ -45,12 +45,11 @@ function sort (array_to_sort) {
 }
 
 function showCharacters (characters_array) {
-    const element_path = document.getElementById('target');
-    const file_path = '../';
+    let element_path;
 
     for (let i = 0; i < characters_array.length; i++) {
-        console.log(characters_array[i]);
-        element_path.innerHTML = `<div> <img src="../images/characters/thumbmail/${characters_array[i]}.png" alt="" </div>`;
+        element_path = document.getElementById(`element_${i + 1}`);
+        element_path.src = `../images/characters/thumbmail/Maya_Ibuki.png`;
     }
     
 }
