@@ -1,0 +1,50 @@
+:root {
+    /* Zmienne odpowiedzialne za kolor tekstu oraz tła  */
+    --disclamer-primary: #d32013;
+    --disclamer-secondary: #921d14;
+}
+
+
+#disclamer {
+    width: 80vw;
+
+    margin-top: 2rem;
+    padding: 15px;
+
+    background-color: var(--disclamer-primary);
+    color: var(--text-secondary);
+
+    border: 3px solid var(--disclamer-secondary);
+    border-radius: 20px;
+}
+
+#close_disclamer {
+    margin-left: 15px;
+
+    
+    color: white;    
+    float: right;
+    
+    font-size: 22px;
+    line-height: 20px;
+    
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#close_disclamer:hover {
+    color: var(--bg-secondary);
+}
+
+#disclamer h2 {
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+}
+
+#disclamer h2 span {
+    font-size: 16px;
+    font-weight: normal;
+}
