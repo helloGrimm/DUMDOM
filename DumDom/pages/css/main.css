@@ -1,0 +1,109 @@
+body {
+    background-color: var(--bg-primary);
+
+    background: url(../images/Neon_Genesis_Evangelion.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+#container {
+    width: calc(100% - 5rem);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container main {
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    float: left;
+    padding-top: 5%;
+}
+
+#container aside {
+    width: 45%;
+
+    float: left;
+    padding-top: 5%;
+}
+
+#container aside a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 28px;
+}
+
+#container article {
+    width: 75%;
+    height: 75%;
+
+    background-color: var(--bg-third);
+
+    padding: 20px 30px 20px 30px;
+
+    border-radius: 20px;
+}
+
+#container p {
+    color: var(--text-secondary);
+}
+
+#characters {
+    width: 75%;
+    height: 100px;
+
+    padding: 50px 60px 50px 60px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+
+    border-radius: 20px;
+    background-image: url(../images/tiles_main_page/NGE_tile_1.jpg);
+}
+
+#anime {
+    width: 75%;
+    height: 100px;
+
+    padding: 50px 60px 50px 60px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+
+    border-radius: 20px;
+    background-image: url(../images/tiles_main_page/NGE_tile_2.jpg);
+    filter: opacity(0.9);
+}
+
+#manga {
+    width: 75%;
+    height: 100px;
+
+    padding: 50px 60px 50px 60px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+
+    border-radius: 20px;
+    background-image: url(../images/tiles_main_page/NGE_tile_3.jpg);
+    filter: opacity(0.9);
+}
+
+#author {
+    width: 75%;
+    height: 100px;
+
+    padding: 50px 60px 50px 60px;
+    margin-left: 5rem;
+
+    border-radius: 20px;
+    background-image: url(../images/tiles_main_page/NGE_tile_4.jpg);
+    filter: opacity(0.9);
+}
