@@ -76,6 +76,7 @@ body {
     color: var(--eva_01-color-1);
     font-weight: bold;
     font-size: 18px;
+    padding-bottom: 0;
 }
 
 .titles span {
