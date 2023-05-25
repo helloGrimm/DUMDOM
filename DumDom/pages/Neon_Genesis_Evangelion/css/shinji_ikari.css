@@ -72,6 +72,12 @@ body {
     color: var(--eva_01-color-2);
 }
 
+.quote {
+    text-decoration: none;
+
+    color: var(--eva_01-color-4);
+}
+
 .titles {
     color: var(--eva_01-color-1);
     font-weight: bold;
