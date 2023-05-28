@@ -5,6 +5,7 @@
     --eva_01-color-2: #592661;
     --eva_01-color-3: #A3DA58;
     --eva_01-color-4: #F7BA2B;
+    --eva_01-color-5: #f7ba2bb0;
 }
 
 body {
@@ -113,3 +114,69 @@ body {
 #container section table td {
     color: var(--text-secondary);
 }
+
+.link-block {
+    display: block;
+    text-decoration: none;
+}
+
+.link-block h1 {
+    color: var(--eva_01-color-3);
+}
+
+.link-block p {
+    color: var(--text-secondary);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-bottom: 5%;
+
+    border: 2px solid var(--eva_01-color-5);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin-inline: 2%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.voice-actors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio {
+    margin-inline: 3%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.audio h1 {
+    color: var(--eva_01-color-3);
+}
+
+.audio span {
+    color: var(--text-secondary);
+    font-weight: normal;
+}
+

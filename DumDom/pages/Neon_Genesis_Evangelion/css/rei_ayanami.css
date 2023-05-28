@@ -1,0 +1,108 @@
+:root {
+    /* Schemat kolorów EVA-unit-01 */
+    --eva_00-color-0: #000000;
+    --eva_00-color-1: #a5bdd5;
+    --eva_00-color-2: #f5bdda;
+    --eva_00-color-3: #b63958;
+    --eva_00-color-4: #759ab4;
+    --eva_00-color-5: #cbd6d7;
+}
+
+body {
+    background: url(../images/NGE_background_darker.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container {
+    width: calc(100% - 5rem);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    margin-left: 5rem;
+    margin-right: 0;
+}
+
+#container main {
+    width: 45%;
+
+    margin-top: 2%;
+    margin-left: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+#container article, aside{
+    color: var(--text-secondary);
+}
+
+#container aside {
+    width: 30%;
+
+    margin-top: 2%;
+    margin-right: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container section {
+    background-color: var(--bg-third);
+    border-radius: 20px;
+
+    padding: 20px;
+    margin-bottom: 2%;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--eva_00-color-2);
+}
+
+.link:hover {
+    color: var(--eva_00-color-5);
+}
+
+.quote {
+    text-decoration: none;
+
+    color: var(--eva_00-color-4);
+}
+
+.titles {
+    color: var(--eva_00-color-3);
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+.titles span {
+    color: var(--text-secondary);
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#container section img {
+    border-radius: 20px;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+}
+
+#container section table {
+    width: 100%;
+
+    text-align: left;
+}
