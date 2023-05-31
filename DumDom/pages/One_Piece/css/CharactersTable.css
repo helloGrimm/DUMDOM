@@ -1,0 +1,237 @@
+body {
+    background-color: #232323;
+}
+.tabela {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.background {
+    overflow: hidden;
+    filter: grayscale(20%) opacity(0.04);
+}
+.background figure {
+    position: relative;
+    width: 500%;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    
+}
+/* pełny background */  
+.background figure img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.Zaloga_Alvidy {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Arlonga {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Barrelsa {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Barto_Club {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Bellamyego {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Bestii {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Białobrodego {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Big_Mom {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Bluejama {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Bonney {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Brązowobrodego {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Buggyego {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Caribou {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Cukierkowych {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Cynowych_Blachuliganów {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Czarnego_Kota {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Czarnobrodego {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Donquixote {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Drakea {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Feniksa {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Fire_Tank {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Foxyego {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Gaspardea {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Gekko {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Hawkinsa {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Ideo {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Kida {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Kriega {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Kuja {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Latających {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Littlea {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Macro {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_na_fali_FM {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Naguriego {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Nox {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Red_Arrows {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Rocksa {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Rogera {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Rudowłosego {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Rumbowych {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Różowobrodego {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Sercowych {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Spade {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Słomkowego_Kapelusza {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Słonecznych {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Thriller_Bark {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Tontatta {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Upadłego_Mnicha {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Usoppa {
+    margin: 3px;
+    float: left;
+}
+.Zaloga_Wettona {
+    margin: 3px;
+    float: left;
+}
+.Powrót {
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-525%, 190%);
+    size: 1%;
+}
