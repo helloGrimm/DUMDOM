@@ -1,0 +1,55 @@
+:root {
+    /* Schemat kolorów EVA-unit-01 */
+    --eva_01-color-0: #000000;
+    --eva_01-color-1: #615AA8;
+    --eva_01-color-2: #592661;
+    --eva_01-color-3: #A3DA58;
+    --eva_01-color-4: #F7BA2B;
+    --eva_01-color-5: #f7ba2bb0;
+}
+
+#container section table th {
+    color: var(--eva_01-color-4);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--eva_01-color-3);
+}
+
+.link-block h1 {
+    color: var(--eva_01-color-3);
+}
+
+.link:hover {
+    color: var(--eva_01-color-2);
+}
+
+.quote {
+    text-decoration: none;
+
+    color: var(--eva_01-color-4);
+}
+
+.titles {
+    color: var(--eva_01-color-1);
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-bottom: 5%;
+
+    border: 2px solid var(--eva_01-color-5);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.audio h1 {
+    color: var(--eva_01-color-3);
+}

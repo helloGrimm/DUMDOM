@@ -1,0 +1,130 @@
+body {
+    background-color: var(--bg-primary);
+
+    background: url(../images/NGE_background_darker.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+#container {
+    width: calc(100% - 5rem);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    width: 40%;
+
+    margin-top: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside {
+    width: 40%;
+
+    margin-top: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+
+    padding-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+aside a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 28px;
+}
+
+article {
+    width: 75%;
+    height: 75%;
+
+    background-color: var(--bg-third);
+
+    padding: 20px 30px 20px 30px;
+
+    border-radius: 20px;
+}
+
+p {
+    color: var(--text-secondary);
+}
+
+#characters {
+    width: 90%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 50px 60px 50px 60px;
+
+    border-radius: 20px;
+    background-image: url(../images/tiles_main_page/NGE_tile_1.jpg);
+}
+
+#anime_manga {
+    width: 90%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 50px 60px 50px 60px;
+
+    border-radius: 20px;
+    background-image: url(../images/tiles_main_page/NGE_tile_2.jpg);
+    filter: opacity(0.9);
+}
+
+#music {
+    width: 90%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 50px 60px 50px 60px;
+
+    border-radius: 20px;
+    background-image: url(../images/tiles_main_page/NGE_tile_3.jpg);
+    filter: opacity(0.9);
+}
+
+#author {
+    width: 90%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 50px 60px 50px 60px;
+
+    border-radius: 20px;
+    background-image: url(../images/tiles_main_page/NGE_tile_4.jpg);
+    filter: opacity(0.9);
+}
