@@ -1,0 +1,182 @@
+
+body{
+    background-image: url(../Galeria/Main/KaguyaTło.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-family: Arial ;
+}
+
+#Glowny a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#Glowny a:hover{
+    text-decoration: underline;
+}
+
+.Tytul{
+    width:50%;
+    position: absolute;
+    top:5%;
+    left: 25%;
+    right: 25%;
+}
+
+.Tytul img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#Glowny{
+    background-color: #EBF2F5;
+    position: absolute;
+    width: 50%;
+    top: 20%;
+    right: 25%;
+    border-radius: 25px;
+}
+
+.Naglowek{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    background-color: rgb(255, 83, 111) ;
+    border-radius: 15px;
+}
+
+.Spis_Tresci{
+    width:60.7%;
+    height: 440px;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    outline: 5px dotted #ff84eb;
+    outline-offset: 5px;
+    border-radius: 25px;
+    overflow: hidden;
+    float: left;
+}
+.Duzy{
+    float: left;
+    height: 100%;
+}
+
+.Duzy img{
+    max-width:100%;
+    max-height: 100%;
+}
+
+.Maly{
+    float: left;
+    height: 33.33%;
+}
+
+.Maly img{
+
+    float: left;
+    max-height: 100%;
+}
+
+.Naglowek_sekcji{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(255, 83, 111) ;
+    border-radius: 10px;
+}
+
+.Pojemnik_Maly{
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: auto;
+    border: 3px solid  rgb(255, 83, 111);
+    border-radius: 15px;
+    float: left;
+}
+
+.Pojemnik_Maly table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.Pojemnik_Maly td{
+    width: 50%;
+    text-align: center;
+}
+
+.Najnowsze_Zdjecie{
+    outline-offset: 1px;
+    outline: 5px dotted orange;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Najnowsze_Zdjecie img{
+    max-width: 100%;
+}
+
+#Zmiana_Tekst{
+    color: rgb(255, 83, 111);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Pojemnik_Duzy{
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 3px solid  rgb(255, 83, 111);
+    border-radius: 15px;
+    float: left;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.Pojemnik_Duzy a{
+    color:#158AD4;
+    font-weight: bolder; 
+}
+
+#dark_mode{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 6%;
+    bottom: 2.5%;
+    background-color: #232323;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#dark_mode img{
+    max-width: 75%;
+    position: relative;
+    Left:12.5%;
+    top: 12.5%;
+}
+
+.Jasny_Tekst{
+    color: white;
+}

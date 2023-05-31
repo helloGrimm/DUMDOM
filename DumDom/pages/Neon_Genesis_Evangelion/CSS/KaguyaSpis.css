@@ -1,0 +1,248 @@
+body{
+    background: url(../Galeria/Main/KaguyaTło.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-family: Arial ;
+}
+
+#Glowny a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#Glowny a:hover{
+    text-decoration: underline;
+}
+
+
+.Tytul{
+    width:50%;
+    position: absolute;
+    top:5%;
+    left: 25%;
+    right: 25%;
+}
+
+.Tytul img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#Glowny{
+    background-color: #EBF2F5;
+    position: absolute;
+    width: 50%;
+    top: 20%;
+    right: 25%;
+    border-radius: 25px;
+}
+
+.Naglowek{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    background-color: rgb(255, 83, 111) ;
+    border-radius: 15px;
+}
+
+.Naglowek_sekcji{
+    width: 80%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: #6A41E8 ;
+    border-radius: 10px;
+}
+
+.Pojemnik_Duzy{
+    width: 75%;
+    margin-bottom: 5%;
+    margin-left: 12.5%;
+    margin-right: auto;
+    border-radius: 15px;
+    float: left;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.Pojemnik_Duzy.Widoczny{
+    outline: 5px solid rgb(255, 83, 111);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.Pojemnik_Duzy.Widoczny a{
+    color:#158AD4;
+    font-weight: bolder; 
+}
+.Pojemnik_Duzy.Widoczny p{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Postac_Glowna{
+    float: left;
+    width: 25%;
+    position: relative;
+    left: 5%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    border: 5px solid #E8A441;
+    border-radius: 50%;
+}
+.Postac_Glowna img{
+    max-width: 100%;
+}
+
+.Podpis{
+    background-color: rgb(211, 32, 211);
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top: 95%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.Postac_Poboczna{
+    float: left;
+    width: 20%;
+    position: relative;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    border: 5px solid #07E681;
+    border-radius: 50%;
+}
+.Postac_Poboczna img{
+    max-width: 100%;
+}
+
+.Postac_Poboczna#rzad_1{
+    left: 1.25%;
+}
+
+.Postac_Poboczna#rzad_2{
+    left: 13%;
+}
+
+.Pojemnik_Duzy table#Wybor{
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+    margin-bottom: 2.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Pojemnik_Duzy table#Wybor td{
+    width: 20%;
+}
+
+.Pojemnik_Duzy table#Tom{
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+    border-collapse:collapse ;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Pojemnik_Duzy table#Tom td{
+    width:50%;
+    border: 5px dashed rgb(211, 32, 211);
+}
+
+.Pojemnik_Duzy table#Tom td img{
+    float: left;
+    max-width:50%;
+    margin-left: 2.5%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.Pojemnik_Duzy table#Tom td p{
+   float: left;
+   margin-left: 1%;
+   font-weight: bold;
+   font-size:medium;
+}
+
+.Pojemnik_Duzy table#Tom td h3{
+    float: left;
+    width: 47.5%;
+    text-align: center;
+    color:#158AD4;
+ }
+
+.Sezon{
+    float: left;
+    width: 20%;
+    position: relative;
+    left: 5%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.Sezon img {
+    max-width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#dark_mode{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 6%;
+    bottom: 2.5%;
+    background-color: #232323;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#dark_mode img{
+    max-width: 75%;
+    position: relative;
+    Left:12.5%;
+    top: 12.5%;
+}
+
+.Jasny_Tekst{
+    color: white;
+}
+
+#Nagrody{
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+    margin-bottom: 5%;
+    border-collapse:collapse ;
+}
+
+#Nagrody td{
+    border: 2px solid rgb(211, 32, 211);
+    text-align: center;
+}
+
+.Wygrana{
+    background-color: #07E681;
+}
+
+.Nominacja{
+    background-color: lightpink;
+}
