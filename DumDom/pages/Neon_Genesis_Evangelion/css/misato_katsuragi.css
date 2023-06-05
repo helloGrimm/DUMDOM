@@ -1,0 +1,33 @@
+:root {
+    /* Schemat kolorów EVA-unit-01 */
+    --eva_00: #000000;
+    --eva_01: #4c4e9e;
+    --eva_02: #a0210f;
+    --eva_03: #212241;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--eva_02);
+}
+
+.link:hover {
+    color: var(--eva_03);
+}
+
+.quote {
+    text-decoration: none;
+
+    color: var(--eva_01);
+}
+
+.titles {
+    color: var(--eva_01);
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+.audio h1 {
+    color: var(--eva_01);
+}
