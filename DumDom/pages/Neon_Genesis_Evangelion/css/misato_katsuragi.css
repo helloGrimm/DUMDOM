@@ -1,9 +1,8 @@
 :root {
-    /* Schemat kolorów EVA-unit-01 */
-    --eva_00: #000000;
     --eva_01: #4c4e9e;
-    --eva_02: #a0210f;
-    --eva_03: #212241;
+    --eva_02: #f5444c;
+    --eva_03: #242774;
+    --eva_04: #d9abdc;
 }
 
 .link {
@@ -18,7 +17,7 @@
 .quote {
     text-decoration: none;
 
-    color: var(--eva_01);
+    color: var(--eva_04);
 }
 
 .titles {
@@ -26,6 +25,18 @@
     font-weight: bold;
     font-size: 18px;
     padding-bottom: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-bottom: 5%;
+
+    border: 2px solid var(--eva_04);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .audio h1 {
