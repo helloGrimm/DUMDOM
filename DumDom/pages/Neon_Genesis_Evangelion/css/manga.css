@@ -9,7 +9,7 @@ body {
     background-color: var(--bg-primary);
 }
 
-.container {
+#container {
     width: calc(723px * 14);
     height: 97vh;
     
@@ -24,14 +24,12 @@ body {
     list-style-type: none;
     height: 100%;
 
-    margin-top: 30px;
+    margin-top: 23px;
 
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-
-    overflow: hidden;
 } 
 
 .content li {
@@ -42,6 +40,8 @@ body {
 }
 
 .card {
+    display: inline-block;
+
     width: 700px;
     height: 100%;
 

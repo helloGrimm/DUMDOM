@@ -27,6 +27,18 @@
     padding-bottom: 0;
 }
 
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-bottom: 5%;
+
+    border: 2px solid var(--eva_00-color-3);
+    border-radius: 20px;
+    padding: 10px;
+}
+
 .audio h1 {
     color: var(--eva_00-color-3);
 }
