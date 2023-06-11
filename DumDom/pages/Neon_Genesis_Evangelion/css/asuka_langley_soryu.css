@@ -1,0 +1,44 @@
+:root {
+    --eva_02-color-1: #f93431;
+    --eva_02-color-2: #e07a3f;
+    --eva_02-color-3: #65af50;
+    --eva_02-color-4: #0873ba;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--eva_02-color-4);
+}
+
+.link:hover {
+    color: var(--eva_02-color-3);
+}
+
+.quote {
+    text-decoration: none;
+
+    color: var(--eva_02-color-2);
+}
+
+.titles {
+    color: var(--eva_02-color-1);
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-bottom: 5%;
+
+    border: 2px solid var(--eva_02-color-3);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.audio h1 {
+    color: var(--eva_02-color-3);
+}

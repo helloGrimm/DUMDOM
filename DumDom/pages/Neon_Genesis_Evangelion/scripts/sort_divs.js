@@ -1,30 +1,30 @@
 // Array that contains main characters from Neon Genesis Evangelion
 let list_of_characters = new Array (
-    "Shinhi_Ikari", "Asuka_Langley_Soryo",
-    "Rei_Ayanami", "Miasto_Katsuragi", 
-    "Kawaru_Nagisa", "Gendo_Ikari",
-    "Ryoji_Kaji", "Ritsuko_Akagi",
-    "Kensuke_Aida", "Maya_Ibuki",
-    "Makoto_Hyuga", "Shigeru_Aoba",
-    "Kouzou_Fuyutsuki", "Hikari_Horaki",
-    "Keel_Lorenz",
+    'Asuka_Langley_Soryu', 'Yui_Ikari', 'Toji_Suzuhara', 
+    'Shinji_Ikari', 'Misato_Katsuragi', 'Rei_Ayanami',
+    'Ritsuko_Akagi', 'Gendo_Ikari', 'Ryoji_Kaji',
+    'Kozo_Fuyutsuki', 'Kensuke_Aida', 'Maya_Ibuki',
+    'Hikari_Horaki', 'Makoto_Hyuga', 'Shiger_Aoba',
+    'Kaworu_Nagisa', 'Pen_Pen', 'Lilith',
+    'Zeruel', 'Leliel', 'Sachiel', 
+    'Ireul', 'Schaquiel', 'Matarael', 
+    'Sandalphon', 'Israfel', 'Gaghiel'
 );
 
 // Array that contains angels from Neon Genesis Evangelion
 let list_of_angels = new Array (
-    "Adam", "Lilith", "Sachiel", "Shamshel",
-    "Ramiel", "Gaghiel", "Israfel", "Sandalphon",
-    "Matarael", "Schaquiel", "Ireul", "Leliel",
-    "Bardiel", "Zeruel", "Arael", "Armisael",
-    "Tabris", "Lilin",         
+    'Lilith', 'Zeruel', 'Leliel', 'Sachiel', 
+    'Ireul', 'Schaquiel', 'Matarael', 
+    'Sandalphon', 'Israfel', 'Gaghiel'
 );
 
+
 // Funkcja sortująca w kolejności alfabetycznej przekazaną do niej tablice 
-function sort (array_to_sort) {
+function sort (type) {
     let temp = ''; // zmienna pomocnicza
 
-    for (let i = 0; i < array_to_sort.length; i++) {
-        for (let j = i + 1; j < array_to_sort.length; j++) {
+    for (let i = 0; i < list_of_characters.length; i++) {
+        for (let j = i + 1; j < list_of_characters.length; j++) {
             // porównujemy element tabliczy o indeksie i { array_to_sort[i] } z
             // kolejnym elementem tablicy i + 1, czyli j { array_to_sort[j] }
 
@@ -32,26 +32,37 @@ function sort (array_to_sort) {
             // -1: oznacza, że array_to_sort[i] jest mniejsze alfabetycznie od array_to_sort[j] { array_to_sort[i] < array_to_sort[j] }
             // 0: oznacza, że wyrazy mają równą wartość alfabetyczną { array_to_sort[i] == array_to_sort[j] }
             // 1: oznacza, że array_to_sort[i] jest większe alfabetycznien od array_to_sort[j] { array_to_sort[i] > array_to_sort[j] }
-            if (array_to_sort[i].localeCompare(array_to_sort[j]) > 0) {
-                temp = array_to_sort[i];
+            if (list_of_characters[i].localeCompare(list_of_characters[j]) > 0) {
+                temp = list_of_characters[i];
 
-                array_to_sort[i] = array_to_sort[j];
-                array_to_sort[j] = temp; 
+                list_of_characters[i] = list_of_characters[j];
+                list_of_characters[j] = temp; 
             }
         }
     }
 
-    return array_to_sort;
-}
-
-function showCharacters (characters_array) {
-    let element_path;
-
-    for (let i = 0; i < characters_array.length; i++) {
-        element_path = document.getElementById(`element_${i + 1}`);
-        element_path.src = `../images/characters/thumbmail/Maya_Ibuki.png`;
+    if (type == 'ascending') {
+        showOnSite(list_of_characters);
+    } else if (type == 'descending') {
+        showOnSite(list_of_characters.reverse());
     }
     
 }
 
-showCharacters(sort(list_of_characters));
+function showOnSite (array_to_show) {
+    let section = document.querySelector('section');
+    section.innerHTML = '';
+    let element, link;
+
+    for (let i = 0; i < array_to_show.length; i++) {
+        link = document.createElement('a');
+        link.setAttribute('href', `${array_to_show[i].toLowerCase()}.html`);
+        link.innerHTML = `<img src="../images/characters/thumbmail/${array_to_show[i]}.png" alt="${array_to_show[i]}">`;
+        // element.src = `../images/characters/thumbmail/${array_to_show[i]}.png`;
+        // element.setAttribute('alt', `${array_to_show[i]}`)
+        section.appendChild(link)
+    }
+
+}
+
+showOnSite(list_of_characters)
