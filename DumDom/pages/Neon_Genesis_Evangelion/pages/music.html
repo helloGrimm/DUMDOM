@@ -6,6 +6,7 @@
 
         <link rel="stylesheet" type="text/css" href="../../../css/navbar.css">
         <link rel="stylesheet" type="text/css" href="../css/music.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
 
@@ -75,5 +76,54 @@
                 </li>
             </ul>
         </nav>
+
+        <main>
+            <div id="left_section">
+                <div id="cover_art"></div>
+
+                <div id="volume">
+                    <p id="value"> 15 </p>
+
+                    <i class="ti ti-volume" id="range" onclick="mute()" ></i>
+
+                    <input id="volume_range" type="range" min="0" max="100" value="15" onchange="volume()">
+                </div>
+            </div>
+
+            <div id="right_section">
+                <span id="title"></span>
+                <span id="artist"></span>
+
+                <div id="music_controls">
+                    <div id="controls">
+                        <button id="previous" onclick="previousSong()">
+                            <i class="ti ti-player-track-prev"></i>
+                        </button>
+                        <button id="play" onclick="playSong()">
+                            <i class="ti ti-player-play"></i>
+                        </button>
+                        <button id="next" onclick="nextSong()">
+                            <i class="ti ti-player-track-next"></i>
+                        </button>
+                    </div>
+
+                    <div id="repeat">
+                        <button id="auto" onclick="autoPlay()"> 
+                            <i class="ti ti-repeat" id="icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="duration_div">
+                    <input id="duration" type="range" min="0" max="100" value="0" onchange="duration()">
+                </div>
+
+                <div id="container">
+
+                </div>
+            </div>
+
+            <script src="../scripts/music_player.js"></script>
+        </main>
     </body>
 </html>

@@ -1,3 +1,145 @@
 body {
     background-color: var(--bg-primary);
+    color: var(--text-secondary);
+}
+
+main {
+    width: calc(100% - 5rem);
+    height: 100vh;
+
+    margin-left: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 2px 0px 20px 12px rgba(240, 240, 240, 0.2);
+}
+
+input[type='range'] {
+    appearance: none;
+    outline: none;
+
+    width: 90%;
+    height: 2px;
+
+    background-color: var(--text-primary);
+}
+
+input[type='range']::-webkit-slider-thumb {
+    appearance: none;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    background-color: var(--icon-secondary);
+}
+
+#left_section {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#volume {
+    width: 72.5%;
+    height: 50px;
+
+    margin-top: 2%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 10px;
+    background-color: var(--bg-secondary);
+}
+
+#range svg {
+    color: var(--icon-secondary);
+    cursor: pointer;
+}
+
+#range svg:hover {
+    color: var(--icon-primary);
+}
+
+#right_section {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#title {
+    font-size: 2rem;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: var(--text-secondary);
+}
+
+#artist {
+    width: 65%;
+
+    font-weight: normal;
+    text-transform: capitalize;
+
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+
+    border-bottom: 2px solid var(--title-secondary);
+    color: var(--text-primary);
+}
+
+#music_controls {
+    width: 65%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i { 
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--icon-secondary);
+}
+
+#music_controls button {
+    padding: 15px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 10px;
+    background-color: var(--bg-secondary);
+}
+
+#duration_div {
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    margin-top: 1%;
+
+    border-radius: 10px;
+    background-color: var(--bg-secondary);
 }
